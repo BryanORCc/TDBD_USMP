@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pantallas.pantalla_login"
+    android:background="@drawable/vision2020"
+    android:alpha="1.5"
+    android:id="@+id/scroll"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="835px"
+            android:elevation="50dp"
+            android:textSize="140px"
+            android:drawableEnd="@drawable/sol"
+            android:textColor="#ffff"
+            android:layout_marginBottom="100px"
+            android:id="@+id/tvCabecera"
+            android:alpha="0.6"
+            />
+
+        <EditText
+            android:layout_marginTop="500px"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="350px"
+            android:layout_height="wrap_content"
+            android:hint="ID..."
+            android:id="@+id/etId"
+            android:textColorHint="#F6F6F1"
+            android:textColor="#F6F6F1"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="350px"
+            android:hint="Contraseña..."
+            android:id="@+id/etPassword"
+            android:inputType="textPassword"
+            android:textColorHint="#F6F6F1"
+            android:textColor="#F6F6F1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_marginTop="50px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingresar"
+                android:id="@+id/btnIngresar"
+                android:background="@drawable/estilo_boton1"
+                android:textColor="#E9EAF1"
+                android:textStyle="bold"
+                android:layout_marginRight="25px"
+                />
+            <Button
+                android:layout_marginTop="20px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nuevo \n Usuario"
+                android:id="@+id/btnNuevo"
+                android:background="@drawable/estilo_boton1"
+                android:textColor="#E9EAF1"
+                android:textStyle="bold"
+                android:layout_marginLeft="25px"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
